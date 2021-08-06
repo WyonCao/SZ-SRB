@@ -1,0 +1,15 @@
+server:
+  port: 8130
+
+spring:
+  profiles:
+    active: dev #运行环境
+  application:
+    name: service-oss #服务名称
+
+aliyun:
+  oss:
+    endpoint: oss-cn-shenzhen.aliyuncs.com #节点
+    keyId: LTAI5t99Y39s9Tkh6pJmHu7y
+    keySecret: KQrLklMUDX7m6qV1w9OlHEqzsr6YFk
+    bucketName: wyon-srb-file

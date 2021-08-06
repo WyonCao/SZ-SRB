@@ -7,6 +7,16 @@
     <groupId>com.WyonCao</groupId>
     <artifactId>SZ-SRB</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>SRB-common</module>
+        <module>service-base</module>
+        <module>service-core</module>
+        <module>alibaba-easyexcel</module>
+        <module>service-sms</module>
+        <module>aliyun-oss</module>
+        <module>service-oss</module>
+        <module>jwt</module>
+    </modules>
 
     <packaging>pom</packaging>
 
